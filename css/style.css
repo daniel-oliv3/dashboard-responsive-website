@@ -1,16 +1,53 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
+
+
+:root {
+    --font-roboto: 'Roboto', sans-serif;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-bold: 700;
+
+    --athens-gray: #e9e8ec;
+    --dune: #242221;
+}
 
 * { 
-    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: none;
-    border: none;
-    text-decoration: none;
-    transition: all .2s linear;
 }
+
+html,
+body {
+    min-width: 320px;
+    background-color: var(--athens-gray);
+    font-family: var(--font-roboto);
+    font-size: 16px;
+    color: var(--dune);
+}
+
+
+ul,
+ol {
+    list-style: none;
+}
+
+/* ======= Wrapper/Embrulho ======= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
