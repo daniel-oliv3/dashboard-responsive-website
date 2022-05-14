@@ -9,6 +9,7 @@
 
     --athens-gray: #e9e8ec;
     --dune: #242221;
+    --alabaster: #f8f8f8;
 }
 
 * { 
@@ -33,8 +34,41 @@ ol {
 }
 
 /* ======= Wrapper/Embrulho ======= */
+.wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* Nav */
+.nav {
+    display: flex;
+    width: 5.6rem;
+    height: calc(100vh - 19.25rem);
+    min-height: 40rem;
+    max-height: 50rem;
+    margin: 11.53rem 2.45rem;
+    padding: 7.5rem 0.825rem;
+    background-color: var(--alabaster);
+    border-radius: 10px;
+}
+
+.nav__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
 
 
+.nav__link {
+    display: block;
+    padding: 0.7rem;
+    font-size: 0;
+    border-radius: 10px;
+}
 
 
 
